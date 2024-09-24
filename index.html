@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT AWESOME FOR PSEUDO-ELEMENT CONTENT -->
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+        
+</head>
+<body>
+    <div id="root">
+        <div class="card">
+            <div id="score-container" class="score-container small">Score: <span id="score">0</span>/<span id="total-questions"></span></div>
+            <h2 class="ta-cen">My Quiz Title</h2>
+            <div id="question-wrapper" class="question-wrapper"></div>
+        
+            <form id="quiz-form">
+                <fieldset id="options-wrapper" class="options-wrapper"></fieldset>
+                <button type="submit" class="btn btn-submit">Submit</button> 
+            </form>
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>    
+</body>
+</html>
